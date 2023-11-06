@@ -323,18 +323,6 @@ def Error(message: str):
     """
     return print(Fore.RED + "\n" + separator + "\n" + message +  "\n" + separator + "\n" + Style.RESET_ALL)
 
-def Success(message: str):
-    """
-    Print a success message with a green color.
-
-    Args:
-        message (str): The success message to be printed.
-
-    Returns:
-        None
-    """
-    return print(Fore.GREEN + "\n" + separator + "\n" + message +  "\n" + separator + "\n" + Style.RESET_ALL)
-
 def Menu(message: str):
     """
     Print a menu message with a blue color.
